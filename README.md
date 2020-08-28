@@ -1,5 +1,6 @@
 # DCS-Weather-Forecast
-Making a forecast of mission weather using the dynamic weather in Digital Combat Simulator
+Making a forecast of mission weather using the dynamic weather in Digital Combat Simulator.
+This programm is in an alpha status!!!!!!!!!!!
 
 The dynamic weather system in DCS depends on placing pseudo cyclones in mission editor. From these pseudo zyclones the game engine calculate the weather system in game.
 This program try to reengineer the variabls with will result in the mission weather.
@@ -28,5 +29,19 @@ Plotting them on the map you can see that most of the pseudo cyclones are outsid
 ![Image pseudo cyclones](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/pseudo_cyclons.png)
 
 2. The addition of each single pseudo cyclone results in a global pressure system with resulting highs and lows.For addition, simply calculated the Gaussian function on a grid and summarize them. The result is a low over Turkey and two highs. Once over Russia and the other one over the Caspian Sea.These resulting weather systems are responsible for the game weather.
-![Image pseudo cyclones](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/pressuremap.png)
-3. Clouds distributet only in low pressure system. Deeper the pressure, more clouds.
+![Image pressure map](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/pressuremap.png)
+3. Clouds distributet only in low pressure system. Deeper the pressure, more clouds. This allows to calculate a simple cloud distribution.
+![Image clouds](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/clouds.png)
+
+## Installation
+The code is based on [GNU Octave](https://www.gnu.org/software/octave/), you have to install it to run the programm. It should also run under [Matlab](https://de.mathworks.com/products/matlab.html). For exporting the pictures, [Image Magick](https://imagemagick.org/) is foreseen.
+For installation simply download the files in a folder.
+
+## To Do
+
+- [ ] Verify the exact values for the Gaussian Distribution
+- [ ] check if the pressure field correct in the game
+- [ ] check if the pressure field changes over the time
+- [ ] search for the relation between pressure and rain
+- [ ] add the possibility to change the pseudo cyclones by mous and export it to the game
+- [ ] bring the programm to a more suitible programming language
