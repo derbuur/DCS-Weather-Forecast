@@ -50,6 +50,7 @@ This means for this project: Calculating all data for several intervals with upd
 ## To Do
 
 - [x] Verify the exact values for the Gaussian Distribution
+- [ ] the relationship between pressure and wind
 - [ ] check if the pressure field correct in the game
 - [x] check if the pressure field changes over the time
 - [ ] search for the relation between pressure and rain
