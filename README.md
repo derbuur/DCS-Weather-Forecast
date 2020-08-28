@@ -37,6 +37,13 @@ Plotting them on the map you can see that most of the pseudo cyclones are outsid
 The code is based on [GNU Octave](https://www.gnu.org/software/octave/), you have to install it to run the programm. It should also run under [Matlab](https://de.mathworks.com/products/matlab.html). For exporting the pictures, [Image Magick](https://imagemagick.org/) is foreseen.
 For installation simply download the files in a folder.
 
+## Notes
+Here some points intressting for the development
+
+- Therefore the matematicl notation in DCS is not as normal and everthing in a clockwise coordinate system here a picture how to count the rotation and the ellipticity.
+
+![clockwise coordinat system](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/rotation.png)
+
 ## To Do
 
 - [ ] Verify the exact values for the Gaussian Distribution
