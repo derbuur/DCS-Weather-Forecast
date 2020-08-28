@@ -45,6 +45,7 @@ Here some points intressting for the development
 ![clockwise coordinat system](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/rotation.png)
 
 - Making some short test about the movement of the pressuresystem over time. Found for a single system there is a general movement (whatever if low or high) of round about 135km/h to the east. Straight to the east with no varianz.
+This means for this project: Calculating all data for several intervals with updating the centerZ Position.
 
 ## To Do
 
