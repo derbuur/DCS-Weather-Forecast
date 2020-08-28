@@ -49,9 +49,9 @@ This means for this project: Calculating all data for several intervals with upd
 
 ## To Do
 
-- [ ] Verify the exact values for the Gaussian Distribution
+- [x] Verify the exact values for the Gaussian Distribution
 - [ ] check if the pressure field correct in the game
-- [ ] check if the pressure field changes over the time
+- [x] check if the pressure field changes over the time
 - [ ] search for the relation between pressure and rain
 - [ ] add the possibility to change the pseudo cyclones by mous and export it to the game
 - [ ] bring the programm to a more suitible programming language
