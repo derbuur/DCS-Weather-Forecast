@@ -31,7 +31,7 @@ Plotting them on the map you can see that most of the pseudo cyclones are outsid
 2. The addition of each single pseudo cyclone results in a global pressure system with resulting highs and lows.For addition, simply calculated the Gaussian function on a grid and summarize them. The result is a low over Turkey and two highs. Once over Russia and the other one over the Caspian Sea.These resulting weather systems are responsible for the game weather.
 ![Image pressure map](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/pressuremap.png)
 3. Clouds distributet only in low pressure system. Deeper the pressure, more clouds. This allows to calculate a simple cloud distribution.
-![Image clouds](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/clouds.png)
+![Image clouds](https://github.com/derbuur/DCS-Weather-Forecast/blob/master/examplePictures/CaucasusOverCloudsBoarders.png)
 
 ## Installation
 The code is based on [GNU Octave](https://www.gnu.org/software/octave/), you have to install it to run the programm. It should also run under [Matlab](https://de.mathworks.com/products/matlab.html). For exporting the pictures, [Image Magick](https://imagemagick.org/) is foreseen.
